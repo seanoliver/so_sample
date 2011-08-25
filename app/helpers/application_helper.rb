@@ -10,4 +10,9 @@ module ApplicationHelper
     end
   end
   
+  # Store the site logo and a tag info in the logo variable
+  def logo
+    logo = image_tag("logo.png", :alt => "SO Rails App", :class => "round")
+  end
+  
 end
