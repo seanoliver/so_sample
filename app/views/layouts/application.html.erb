@@ -14,10 +14,13 @@
   		<section class="round">
   			<%= yield %>
 		</secton>
-		
 	</div>
 	
 	<%= render 'layouts/footer' %>
+	
+	<div class="container">
+	<%= debug(params) if Rails.env.development? %>
+	</div>
 	
   </body>
 </html>
