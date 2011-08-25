@@ -7,6 +7,7 @@ gem 'rails', '3.0.9'
 
 gem 'sqlite3', '1.3.3'
 gem 'rake', '0.9.2'
+gem 'gravatar_image_tag', '1.0.0.pre2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -43,6 +44,7 @@ group :test do
   gem 'autotest', '4.4.6'
   gem 'autotest-rails-pure', '4.1.2'
   # gem 'autotest-fsevent', '0.2.4' ==> OS X Only
-  # gem 'autotest-growl', '0.2.9' ==> OS X Only
+  gem 'autotest-growl', '0.2.9'
+  gem 'factory_girl_rails'
   
 end
